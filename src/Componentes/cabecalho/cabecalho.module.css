@@ -1,14 +1,14 @@
 .cabecalho{
     display: flex;
     justify-content: space-around;
+    background-color: #000;
+    text-align: center;
 }
 
 .titulo{
     font-size: 3rem;
     color: chocolate;
     background-color: #000;
+   padding-right: 500px;
 }
 
-.subtitulo{
-    font-size: 2rem;
-}
