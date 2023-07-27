@@ -20,9 +20,17 @@ export default function Rodape() {
     <footer>
      <div className='Rodape'>
      <ul>
+      <a href="#" class="icon">
     <li><FaFacebook/></li>
+</a>
+      <a href="#" class="icon">
     <li><FaInstagram/></li>
+    </a>
+    
+       <a href="#" class="icon">
     <li><FaTwitter/></li>
+    </a>
+
      </ul>
      </div>
 
