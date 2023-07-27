@@ -2,13 +2,19 @@
     display: flex;
     justify-content: space-around;
     background-color: #000;
-    text-align: center;
+   
 }
 
 .titulo{
     font-size: 3rem;
-    color: chocolate;
-    background-color: #000;
-   padding-right: 500px;
+    color: rgb(211, 155, 2);
+   font-style: italic;
+   align-items: center;
+   justify-content: center;
 }
 
+.menu{
+    color: rgb(211, 155, 2);
+    font-style: italic;
+    padding-left: 175px;
+}

@@ -1,18 +1,20 @@
-.footer {
-    background-color: #110f0f; /* Cor de fundo do rodapé */
+footer {
+  background-color: #000; /* Cor de fundo do rodapé */
     color: #fff; /* Cor do texto no rodapé */
-    padding: 10px; /* Espaçamento interno do rodapé */
-    text-align: justify; /* Alinhamento do texto */
+    padding: 20px; /* Espaçamento interno do rodapé */
     position: fixed; /* Para fixar o rodapé na parte inferior da página */
-    left: 0;
     bottom: 0;
     width: 100%; /* Largura ocupando toda a largura da página */
-
+    height: 75px;
    
   }
-.subtitulo{
-    font-size:1rem;
-    color: chocolate;
-    background-color: #000;
-   padding-right: 500px;
+  .icon{
+    color: rgb(211, 155, 2);
+  }
+
+.date{
+  position: fixed;;
+    bottom: 0px; 
+    color: rgb(211, 155, 2);
+    padding-left: 1250px;
 }

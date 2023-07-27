@@ -8,6 +8,11 @@ export default function cabecalho(props) {
       <img src={props.logo} />
       <p className={styles.titulo}>{props.titulo}</p>
       
+      <p className={styles.menu}> 
+        <li> INICIO </li>
+        <li> FAVORITOS </li>
+        <li> EXPLORAR </li>
+      </p>
     </div>
   )
 }
