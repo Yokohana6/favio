@@ -9,9 +9,11 @@ export default function cabecalho(props) {
       <p className={styles.titulo}>{props.titulo}</p>
       
       <p className={styles.menu}> 
-        <li> INICIO </li>
-        <li> FAVORITOS </li>
-        <li> EXPLORAR </li>
+      <ul>
+        <li><a href="#" onclick="selecionarOpcao('Home')">Inicio</a></li>
+        <li><a href="#" onclick="selecionarOpcao('Sobre')">Sobre</a></li>
+        <li><a href="#" onclick="selecionarOpcao('Contato')">Explorar</a></li>
+      </ul>
       </p>
     </div>
   )
