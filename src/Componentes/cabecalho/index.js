@@ -5,7 +5,7 @@ export default function cabecalho(props) {
   return (
     <div className={styles.cabecalho}>
       
-      <img src={props.logo} />
+      <img className={styles.img} src={props.logo} />
       <p className={styles.titulo}>{props.titulo}</p>
       
       <p className={styles.menu}> 
