@@ -31,7 +31,7 @@ function handleSubmit(e){
 }
 
   return (
-    <div id="div-cadastro-usuario" className={styles.cadastroUsuario}>
+    <div id="div-cadastro-usuario" >
       <h1>Cadastro de Usuário</h1>
       <form>
      <label htmlFor="cadastro_nome">Nome:</label>
