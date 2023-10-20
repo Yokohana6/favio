@@ -1,5 +1,5 @@
 import React, {useState } from 'react';
-
+import styles from './Cadastro.module.css'
  const CadastroUsuario = () => {
    const [nome,setNome]=useState(' ')
    const [email,setEmail]=useState(' ')
@@ -31,17 +31,20 @@ function handleSubmit(e){
 }
 
   return (
-    <div id="div-cadastro-usuario" >
+    <div id="div-cadastro-usuario" className={styles.cadastroUsuario} >
       <h1>Cadastro de Usuário</h1>
       <form>
      <label htmlFor="cadastro_nome">Nome:</label>
          <input type="text" onChange={(e) => handleNome(e)} />
+         <br />
      <label htmlFor="cadastro_email">Email:</label>
          <input type="text" onChange={(e) => handleEmail(e)} />
+         <br />
      <label htmlFor="cadastro_senha">Senha:</label>
-         <input type="text" onChange={(e) => handleSenha(e)} />
+         <input type="password" onChange={(e) => handleSenha(e)} />
+         <br />
      <label htmlFor="cadastro_confsenha">Confirmação da Senha:</label>
-         <input type="text" onChange={(e) => handleConfirmaçãodaSenha(e)} />
+         <input type="password" onChange={(e) => handleConfirmaçãodaSenha(e)} />
        <button onClick={(e) => {
         e.preventDefault();
         handleSubmit(e)
