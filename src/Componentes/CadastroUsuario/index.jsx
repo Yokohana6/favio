@@ -24,7 +24,7 @@ function handleConfirmaçãodaSenha(e){
 function handleSubmit(e){
   if(senha==confirmaçaoSenha) {
     const usuario={nome,email,senha}
-    localStorage.setItem('usuario', usuario)
+    localStorage.setItem('usuario', JSON.stringify(usuario))
   } else {
     alert("Senha incorreta")
   }
